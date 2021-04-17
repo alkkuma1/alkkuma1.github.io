@@ -14,16 +14,16 @@ date_format = "Jan 2006" # Date format https://gohugo.io/functions/dateformat/#r
 
 [[period]]
   title = "Team Lead"
-  subtitle = "Previous Desinations: Senior System Engineer"
+  subtitle = "Previous Designations: Senior System Engineer"
   location = "Accenture, Bengaluru, India"
-  date_start = "2019-29-03"
+  date_start = "2019-03-29"
   date_end = ""
-  description = "Chief cook of the biggest restaurant of Bikini Bottom."
+  description = "I am working on integration and trying to get onboarded with cloud in terms on integrations. Tools and Technologies worked on: EAI: SSP, SFG, SBI, Cloud: AWS, Azure"
 
 [[period]]
-  title = "Trainee cook"
-  subtitle = "Krusty krab"
-  location = "California"
+  title = "Senior System Engineer"
+  subtitle = "Previous Designations: System Engineer, Associate System Engineer"
+  location = "IBM India Pvt Ltd, Pune, India"
   date_start = "2016-01-01"
   date_end = "2016-12-31"
   description = "I learned the basics of cooking, the passion and the secrets of a good burger"
