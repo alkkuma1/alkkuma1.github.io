@@ -6,17 +6,17 @@ weight = 30  # Order that this section will appear.
 # hidden = true
 
 # Widget title
-title = "Experience"
+title = "Professional Journey"
 # Widget subtitle
-subtitle = "What lead me to acquire experience."
+subtitle = "My past, present and my future plans."
 
 date_format = "Jan 2006" # Date format https://gohugo.io/functions/dateformat/#readout
 
 [[period]]
-  title = "Chief cook"
-  subtitle = "Krusty krab"
-  location = "Bikini Bottom"
-  date_start = "2017-01-01"
+  title = "Team Lead"
+  subtitle = "Previous Desinations: Senior System Engineer"
+  location = "Accenture, Bengaluru, India"
+  date_start = "2019-29-03"
   date_end = ""
   description = "Chief cook of the biggest restaurant of Bikini Bottom."
 
