@@ -26,5 +26,5 @@ date_format = "Jan 2006" # Date format https://gohugo.io/functions/dateformat/#r
   location = "California"
   date_start = "2016-01-01"
   date_end = "2016-12-31"
-  description = "I learned the basics of cooking, the passion and the secrets of a good burger."
+  description = "I learned the basics of cooking, the passion and the secrets of a good burger"
 +++
