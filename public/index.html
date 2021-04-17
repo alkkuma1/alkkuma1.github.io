@@ -1,321 +1,668 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
+<html lang='en' class=''>
+
+<head>
 	<meta name="generator" content="Hugo 0.82.0" />
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noodp"/><title>uBlogger</title>
-        <meta name="twitter:card" content="summary_large_image"/><meta name="twitter:creator" content="@xxxx"/><meta name="twitter:title" content=""/>
-        <meta name="twitter:description" content="About uBlogger Theme"/>
-        <meta name="Description" content="About uBlogger Theme"><meta property="og:title" content="uBlogger" />
-<meta property="og:description" content="About uBlogger Theme" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://ublogger.netlify.app/" /><meta property="og:image" content="https://ublogger.netlify.app/logo.png"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name=viewport content="width=device-width, initial-scale=1">
 
-<meta name="application-name" content="uBlogger">
-<meta name="apple-mobile-web-app-title" content="uBlogger"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-        <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
-        <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://ublogger.netlify.app/" /><link rel="alternate" href="/index.xml" type="application/rss+xml" title="uBlogger">
-    <link rel="feed" href="/index.xml" type="application/rss+xml" title="uBlogger"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"><script type="application/ld+json">
-    {
-        "@context": "http://schema.org",
-        "@type": "WebSite",
-        "url": "https:\/\/ublogger.netlify.app\/","inLanguage": "en","author": {
-                "@type": "Person",
-                "name": "upagge.en"
-            },"description": "About uBlogger Theme","thumbnailUrl": "https:\/\/ublogger.netlify.app\/images\/screenshot.png","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","sameAs": ["https://discord.gg/xxxxxxxxx","https://facebook.com/xxxx","https://github.com/xxxx","https://www.instagram.com/xxxx","https://mastodon.technology/@xxxx","https://t.me/xxxx","https://twitter.com/xxxx","https://www.youtube.com/user/xxxx"],"name": "uBlogger"
-    }
-    </script></head>
-    <body data-header-desktop="fixed" data-header-mobile="auto"><script>(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
 
-        <div id="mask"></div><div class="wrapper"><header>
-    <div class="desktop header" id="header-desktop">
-        <div class="header-wrapper">
-            <div class="header-title">
-                <a href="/" title="uBlogger" class="header-logo logo-svg"><span class="header-title-pre"><i class='fas fa-pencil-alt fa-fw'></i></span>uBlogger</a>
-            </div>
-            <div class="menu">
-                <nav>
-                    <h2 class="display-hidden">Основная навигация</h2>
-                    <ul class="menu-inner"><li>
-                            <a class="menu-item" href="/posts/"> Posts </a>
-                        </li><li>
-                            <a class="menu-item" href="/tags/"> Tags </a>
-                        </li><li>
-                            <a class="menu-item" href="/categories/"> Categories </a>
-                        </li><li>
-                            <a class="menu-item" href="/categories/documentation/"> Docs </a>
-                        </li><li>
-                            <a class="menu-item" href="/about/"> About </a>
-                        </li><li>
-                            <a class="menu-item" href="https://github.com/upagge/ublogger" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i>  </a>
-                        </li></ul>
-                </nav><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
-                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
-                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
-                            <span class="svg-icon icon-search"></span>
-                        </a>
-                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
-                            <span class="svg-icon icon-cancel"></span>
-                        </a>
-                        <span class="search-button search-loading" id="search-loading-desktop">
-                            <span class="svg-icon icon-loading"></span>
-                        </span>
-                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
-                <span class="svg-icon icon-moon"></span>
-                </a>
-            </div>
-        </div>
-    </div><div class="mobile header" id="header-mobile">
-        <div class="header-container">
-            <div class="header-wrapper">
-                <div class="header-title">
-                    <a href="/" title="uBlogger" class="header-logo"><span class="header-title-pre"><i class='fas fa-pencil-alt fa-fw'></i></span>uBlogger</a>
-                </div>
-                <div class="menu-toggle" id="menu-toggle-mobile">
-                    <span></span><span></span><span></span>
-                </div>
-            </div>
-            <div class="menu" id="menu-mobile"><div class="search-wrapper">
-                        <div class="search mobile" id="search-mobile">
-                            <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
-                            <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
-                                <span class="svg-icon icon-search"></span>
-                            </a>
-                            <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
-                                <span class="svg-icon icon-cancel"></span>
-                            </a>
-                            <span class="search-button search-loading" id="search-loading-mobile">
-                                <span class="svg-icon icon-loading"></span>
-                            </span>
-                        </div>
-                        <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
-                            Cancel
-                        </a>
-                    </div><nav>
-                    <h2 class="display-hidden">Основная навигация</h2>
-                    <ul><li>
-                            <a class="menu-item" href="/posts/" title="">Posts</a>
-                        </li><li>
-                            <a class="menu-item" href="/tags/" title="">Tags</a>
-                        </li><li>
-                            <a class="menu-item" href="/categories/" title="">Categories</a>
-                        </li><li>
-                            <a class="menu-item" href="/categories/documentation/" title="">Docs</a>
-                        </li><li>
-                            <a class="menu-item" href="/about/" title="">About</a>
-                        </li><li>
-                            <a class="menu-item" href="https://github.com/upagge/ublogger" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i></a>
-                        </li></ul>
-                </nav>
-                <a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
-                    <span class="svg-icon icon-moon"></span>
-                </a></div>
-        </div>
-    </div><div class="search-dropdown desktop">
-    <div id="search-dropdown-desktop"></div>
+
+<meta name="description" content="Boilerplate website" />
+
+
+
+<title>
+	Pico
+	
+</title>
+
+<link href="https://alkkuma1.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Pico" />
+
+
+
+<link rel="icon" href="/favicon.ico">
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://alkkuma1.github.io/js/pico.min.c4d85ebdc6915c775d5aef6d1d503a99.js" intergrity="md5-xNhevcaRXHddWu9tHVA6mQ==" crossorigin="anonymous"></script>
+
+
+	
+
+
+
+
+
+<link rel="stylesheet" href="https://alkkuma1.github.io/css/main.min.012833708808652e005660d4ee49e686.css" crossorigin="anonymous" media="screen"
+	integrity="md5-ASgzcIgIZS4AVmDU7knmhg==">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://alkkuma1.github.io/style/style.min.d41d8cd98f00b204e9800998ecf8427e.css" crossorigin="anonymous" media="screen"
+	integrity="md5-1B2M2Y8AsgTpgAmY7PhCfg==">
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://alkkuma1.github.io/css/main.min.d5d46344e3b621a3e3a173927106f45d.css" crossorigin="anonymous" media="screen"
+	integrity="md5-1dRjROO2IaPjoXOScQb0XQ==">
+
+
+</head>
+
+<body class="min-h-screen bg-secondary-light dark:bg-secondary text-primary relative pb-24">
+	
+	<div id="top" class="dark"></div>
+
+<header class="w-full flex items-center justify-between px-5 mx-auto md:pt-8 md:max-w-5xl pt-5">
+	
+	<div class="flex items-center">
+		<a href="https://alkkuma1.github.io/" class="inline-block font-bold no-underline select-none">
+			<h1 class="hidden md:block font-charter tracking-normal m-0">
+				Pico
+			</h1>
+
+			<div class="md:hidden">
+				<div class="w-8 h-8 relative font-bold bg-white blend-diff">
+	<h1 class="absolute-center m-0 font-charter text-2xl text-gray-100 blend-diff select-none">
+		P
+	</h1>
 </div>
-<div class="search-dropdown mobile">
-    <div id="search-dropdown-mobile"></div>
-</div></header><main class="main">
-                <div class="container">
-    
-    <article class="page home" data-home="posts"><aside class="home-profile"><div class="home-avatar"><a href="/posts/" title="Posts"><img loading="lazy" decoding="async"
-         
-         src="/images/avatar.png"
-         alt="/images/avatar.png"
-         title="/images/avatar.png"
-    /></a></div><div class="home-meta"><div class="home-title">uBlogger | Hugo Theme</div><div class="home-subtitle">A Clean, Elegant but Advanced Hugo Theme</div><div class="links"><a href="https://github.com/xxxx" title="GitHub" target="_blank" rel="noopener noreffer me"><span class="svg-social-icon-color icon-github"></span></a><a href="https://twitter.com/xxxx" title="Twitter" target="_blank" rel="noopener noreffer me"><span class="svg-social-icon-color icon-twitter"></span></a><a href="https://www.instagram.com/xxxx" title="Instagram" target="_blank" rel="noopener noreffer me"><span class="svg-social-icon-color icon-instagram"></span></a><a href="https://facebook.com/xxxx" title="facebook" target="_blank" rel="noopener noreffer me"><span class="svg-social-icon-color icon-facebook"></span></a><a href="https://t.me/xxxx" title="Telegram" target="_blank" rel="noopener noreffer me"><span class="svg-social-icon-color icon-telegram"></span></a><a href="https://www.youtube.com/user/xxxx" title="YouTube" target="_blank" rel="noopener noreffer me"><span class="svg-social-icon-color icon-youtube"></span></a><a href="https://mastodon.technology/@xxxx" title="Mastodon" target="_blank" rel="noopener noreffer me"><span class="svg-social-icon-color icon-mastodon"></span></a><a href="https://discord.gg/xxxxxxxxx" title="Discord" target="_blank" rel="noopener noreffer me"><span class="svg-social-icon-color icon-discord"></span></a><a href="mailto:xxxx@xxxx.com" title="Email" rel=" me"><span class="svg-social-icon-color icon-mail-dot-ru"></span></a><a href="/index.xml" title="RSS" target="_blank" rel="noopener noreffer me"><span class="svg-social-icon-color icon-rss"></span></a></div></div>
-</aside>
-<article itemscope itemtype="http://schema.org/Article">
-    <div class="summary summary-animation" style="margin-bottom:0">
-        <header><div class="featured-image-preview"><div class="post-tags-summary-image"><a class="post-tag-summary" href="/tags/shortcodes/" style=""><span>shortcodes</span></a></div><a href="/theme-documentation-built-in-shortcodes/" target="_blank"><img loading="lazy" decoding="async"
-         
-         src="/theme-documentation-built-in-shortcodes/featured-image_hu8f52bf928b3e518c539209a998020db1_15491_796x238_fill_q90_box_center_2.png"
-         alt="Theme Documentation - Built-in Shortcodes"
-         title="Hugo provides multiple built-in shortcodes for author convenience and to keep your markdown content clean." height="798" width="238"
-    /></a>
-                </div><div style="padding-top: 20px;padding-left: 20px;padding-right: 20px;"><h2 class="summary-title" itemprop="name headline">
-                    <a href="/theme-documentation-built-in-shortcodes/" target="_blank">Theme Documentation - Built-in Shortcodes</a>
-                </h2><div class="post-meta summary-post-meta"><span class="meta-item post-category">
-                            <a href="/categories/documentation/"><span class="svg-icon icon-folder"></span>Documentation</a>
-                    </span><span class="meta-item post-author"><a href="https://uPagge.ru" title="Author" target="_blank" rel="noopener noreffer author" class="author"><span class="svg-icon icon-user"></span>uPagge</a></span><span class="meta-item post-publish"><span class="svg-icon icon-clock"></span><time class="timeago" datetime="2020-03-04">2020-03-04</time></span><span class="meta-item post-meta-comments">
-                            <span class="svg-icon icon-comments"></span><span class="remark42__counter" data-url="https://ublogger.netlify.app/theme-documentation-built-in-shortcodes/"></span>
-                    </span></div></div>
-        </header>
+			</div>
+		</a>
+		
+		<div class="inline-block pl-2 ml-2 border-l border-gray-600">
+			
+			<a href="https://alkkuma1.github.io/fr/" class="no-underline inline-block px-1">
+				<span class="font-bold">
+					FR
+				</span>
+			</a>
+			
+		</div>
+		
+	</div>
 
-        <div class="article-text"><div class="content summary-content"><p><strong>Hugo</strong> provides multiple built-in shortcodes for author convenience and to keep your markdown content clean.</p></div></div>
-    </div>
+	<nav class="">
+		
+		<a href="/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 Home
+		</a>
+		
+		<a href="/blog/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 Blog
+		</a>
+		
+		<a href="/#contact"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 Contact
+		</a>
+		
+	</nav>
+</header>
+	
+	
+	
 
-    <div class="post-tags-summary-under-footer"><footer>
-            <div class="post-tags-summary-under-footer-display" ><a class="post-tag-summary" href="/tags/shortcodes/" style="">shortcodes</a></div>
-        </footer></div>
-</article>
+	<main class="w-full px-4 pt-8 mx-auto md:max-w-4xl overflow-x-hidden md:overflow-visible lg:max-w-5xl xl:max-w-6xl 2xl:max-w-screen-xl">
 
-<article itemscope itemtype="http://schema.org/Article">
-    <div class="summary summary-animation" style="margin-bottom:0">
-        <header><div class="featured-image-preview"><div class="post-tags-summary-image"><a class="post-tag-summary" href="/tags/shortcodes/" style=""><span>shortcodes</span></a></div><a href="/theme-documentation-extended-shortcodes/" target="_blank"><img loading="lazy" decoding="async"
-         
-         src="/theme-documentation-extended-shortcodes/featured-image-preview_hu30910665284931ace4f57faa1e01d828_163514_796x238_fill_q90_box_center.jpg"
-         alt="Theme Documentation - Extended Shortcodes"
-         title="uBlogger theme provides multiple shortcodes on top of built-in ones in Hugo." height="798" width="238"
-    /></a>
-                </div><div style="padding-top: 20px;padding-left: 20px;padding-right: 20px;"><h2 class="summary-title" itemprop="name headline">
-                    <a href="/theme-documentation-extended-shortcodes/" target="_blank">Theme Documentation - Extended Shortcodes</a>
-                </h2><div class="post-meta summary-post-meta"><span class="meta-item post-category">
-                            <a href="/categories/documentation/"><span class="svg-icon icon-folder"></span>Documentation</a>
-                    </span><span class="meta-item post-author"><a href="https://uPagge.ru" title="Author" target="_blank" rel="noopener noreffer author" class="author"><span class="svg-icon icon-user"></span>uPagge</a></span><span class="meta-item post-publish"><span class="svg-icon icon-clock"></span><time class="timeago" datetime="2020-03-03">2020-03-03</time></span><span class="meta-item post-meta-comments">
-                            <span class="svg-icon icon-comments"></span><span class="remark42__counter" data-url="https://ublogger.netlify.app/theme-documentation-extended-shortcodes/"></span>
-                    </span></div></div>
-        </header>
 
-        <div class="article-text"><div class="content summary-content"><p><strong>uBlogger</strong> theme provides multiple shortcodes on top of built-in ones in Hugo.</p></div></div>
-    </div>
 
-    <div class="post-tags-summary-under-footer"><footer>
-            <div class="post-tags-summary-under-footer-display" ><a class="post-tag-summary" href="/tags/shortcodes/" style="">shortcodes</a></div>
-        </footer></div>
-</article>
 
-<article itemscope itemtype="http://schema.org/Article">
-    <div class="summary summary-animation" style="margin-bottom:0">
-        <header><div class="featured-image-preview"><div class="post-tags-summary-image"><a class="post-tag-summary" href="/tags/markdown/" style=""><span>Markdown</span></a><a class="post-tag-summary" href="/tags/html/" style=""><span>HTML</span></a></div><a href="/basic-markdown-syntax/" target="_blank"><img loading="lazy" decoding="async"
-         
-         src="/basic-markdown-syntax/featured-image_huf374f7ac190540f7d6eedb26cf63a20a_171484_796x238_fill_q90_box_center_2.png"
-         alt="Basic Markdown Syntax"
-         title="This article shows the basic Markdown syntax and format." height="798" width="238"
-    /></a>
-                </div><div style="padding-top: 20px;padding-left: 20px;padding-right: 20px;"><h2 class="summary-title" itemprop="name headline">
-                    <a href="/basic-markdown-syntax/" target="_blank">Basic Markdown Syntax</a>
-                </h2><div class="post-meta summary-post-meta"><span class="meta-item post-category">
-                            <a href="/categories/markdown/"><span class="svg-icon icon-folder"></span>Markdown</a>
-                    </span><span class="meta-item post-author"><a href="https://uPagge.ru" title="Author" target="_blank" rel="noopener noreffer author" class="author"><span class="svg-icon icon-user"></span>uPagge</a></span><span class="meta-item post-publish"><span class="svg-icon icon-clock"></span><time class="timeago" datetime="2019-12-01">2019-12-01</time></span><span class="meta-item post-meta-comments">
-                            <span class="svg-icon icon-comments"></span><span class="remark42__counter" data-url="https://ublogger.netlify.app/basic-markdown-syntax/"></span>
-                    </span></div></div>
-        </header>
 
-        <div class="article-text"><div class="content summary-content"><p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files.</p></div></div>
-    </div>
 
-    <div class="post-tags-summary-under-footer"><footer>
-            <div class="post-tags-summary-under-footer-display" ><a class="post-tag-summary" href="/tags/markdown/" style="">Markdown</a><a class="post-tag-summary" href="/tags/html/" style="">HTML</a></div>
-        </footer></div>
-</article>
+<section id="hero" class="mt-8 mx-auto flex flex-wrap items-center">
+	<div
+		class="mx-auto p-2 sm:p-8 text-center  md:pl-0 md:w-1/2 ">
+		<div>
+			<h1 id="a-theme-to-express-your-ideas">A theme to <strong>express</strong> your ideas.</h1>
+<p>Pico is a minimalist, readable, responsive, light and beautiful Hugo theme.</p>
 
-<article itemscope itemtype="http://schema.org/Article">
-    <div class="summary summary-animation" style="margin-bottom:0">
-        <header><div class="featured-image-preview"><div class="post-tags-summary-image"><a class="post-tag-summary" href="/tags/emoji/" style=""><span>emoji</span></a></div><a href="/emoji-support/" target="_blank"><img loading="lazy" decoding="async"
-         
-         src="/emoji-support/featured-image_hu8d14d1c17b1d508918c0947939fc4698_31139_796x238_fill_q90_box_center.jpg"
-         alt="Emoji Support"
-         title="Guide to emoji usage in Hugo and uBlogger." height="798" width="238"
-    /></a>
-                </div><div style="padding-top: 20px;padding-left: 20px;padding-right: 20px;"><h2 class="summary-title" itemprop="name headline">
-                    <a href="/emoji-support/" target="_blank">Emoji Support</a>
-                </h2><div class="post-meta summary-post-meta"><span class="meta-item post-category">
-                            <a href="/categories/markdown/"><span class="svg-icon icon-folder"></span>Markdown</a>
-                    </span><span class="meta-item post-author"><a href="https://uPagge.ru" title="Author" target="_blank" rel="noopener noreffer author" class="author"><span class="svg-icon icon-user"></span>uPagge</a></span><span class="meta-item post-publish"><span class="svg-icon icon-clock"></span><time class="timeago" datetime="2019-10-01">2019-10-01</time></span><span class="meta-item post-meta-comments">
-                            <span class="svg-icon icon-comments"></span><span class="remark42__counter" data-url="https://ublogger.netlify.app/emoji-support/"></span>
-                    </span></div></div>
-        </header>
+		</div>
+		<div class="mx-auto mt-8 mb-8 md:mb-0 flex justify-center">
+			
+			
+			
+			
+			
 
-        <div class="article-text"><div class="content summary-content"><p>Emoji can be enabled in a Hugo project in a number of ways.</p></div></div>
-    </div>
+			
+			
+			
 
-    <div class="post-tags-summary-under-footer"><footer>
-            <div class="post-tags-summary-under-footer-display" ><a class="post-tag-summary" href="/tags/emoji/" style="">emoji</a></div>
-        </footer></div>
-</article>
 
-<article itemscope itemtype="http://schema.org/Article">
-    <div class="summary summary-animation" style="margin-bottom:0">
-        <header><div class="featured-image-preview"><div class="post-tags-summary-image"><a class="post-tag-summary" href="/tags/installation/" style=""><span>installation</span></a><a class="post-tag-summary" href="/tags/configuration/" style=""><span>configuration</span></a></div><a href="/theme-documentation-basics/" target="_blank"><img loading="lazy" decoding="async"
-         
-         src="/theme-documentation-basics/featured-image_hudd989a57cb6c6ab0455cadd62c340358_154448_796x238_fill_q90_box_center.jpg"
-         alt="Theme Documentation - Basics"
-         title="Discover what the Hugo - uBlog theme is all about and the core-concepts behind it." height="798" width="238"
-    /></a>
-                </div><div style="padding-top: 20px;padding-left: 20px;padding-right: 20px;"><h2 class="summary-title" itemprop="name headline">
-                    <a href="/theme-documentation-basics/" target="_blank">Theme Documentation - Basics</a>
-                </h2><div class="post-meta summary-post-meta"><span class="meta-item post-category">
-                            <a href="/categories/documentation/"><span class="svg-icon icon-folder"></span>Documentation</a>
-                    </span><span class="meta-item post-author"><a href="https://uPagge.ru" title="Author" target="_blank" rel="noopener noreffer author" class="author"><span class="svg-icon icon-user"></span>uPagge</a></span><span class="meta-item post-publish"><span class="svg-icon icon-clock"></span><time class="timeago" datetime="2020-03-06">2020-03-06</time></span><span class="meta-item post-meta-comments">
-                            <span class="svg-icon icon-comments"></span><span class="remark42__counter" data-url="https://ublogger.netlify.app/theme-documentation-basics/"></span>
-                    </span></div></div>
-        </header>
 
-        <div class="article-text"><div class="content summary-content"><p>Discover what the Hugo - <strong>uBlog</strong> theme is all about and the core-concepts behind it.</p></div></div>
-    </div>
 
-    <div class="post-tags-summary-under-footer"><footer>
-            <div class="post-tags-summary-under-footer-display" ><a class="post-tag-summary" href="/tags/installation/" style="">installation</a><a class="post-tag-summary" href="/tags/configuration/" style="">configuration</a></div>
-        </footer></div>
-</article>
 
-<article itemscope itemtype="http://schema.org/Article">
-    <div class="summary summary-animation" style="margin-bottom:0">
-        <header><div class="featured-image-preview"><div class="post-tags-summary-image"><a class="post-tag-summary" href="/tags/content/" style=""><span>content</span></a><a class="post-tag-summary" href="/tags/markdown/" style=""><span>Markdown</span></a></div><a href="/theme-documentation-content/" target="_blank"><img loading="lazy" decoding="async"
-         
-         src="/theme-documentation-content/featured-image_hu14866a2f81019bbb083cebdd3fc9c26c_296383_796x238_fill_q90_box_center.jpg"
-         alt="Theme Documentation - Content"
-         title="Find out how to create and organize your content quickly and intuitively in uBlogger theme." height="798" width="238"
-    /></a>
-                </div><div style="padding-top: 20px;padding-left: 20px;padding-right: 20px;"><h2 class="summary-title" itemprop="name headline">
-                    <a href="/theme-documentation-content/" target="_blank">Theme Documentation - Content</a>
-                </h2><div class="post-meta summary-post-meta"><span class="meta-item post-category">
-                            <a href="/categories/documentation/"><span class="svg-icon icon-folder"></span>Documentation</a>
-                    </span><span class="meta-item post-author"><a href="https://uPagge.ru" title="Author" target="_blank" rel="noopener noreffer author" class="author"><span class="svg-icon icon-user"></span>uPagge</a></span><span class="meta-item post-publish"><span class="svg-icon icon-clock"></span><time class="timeago" datetime="2020-03-05">2020-03-05</time></span><span class="meta-item post-meta-comments">
-                            <span class="svg-icon icon-comments"></span><span class="remark42__counter" data-url="https://ublogger.netlify.app/theme-documentation-content/"></span>
-                    </span></div></div>
-        </header>
 
-        <div class="article-text"><div class="content summary-content"><p>Find out how to create and organize your content quickly and intuitively in <strong>uBlogger</strong> theme.</p></div></div>
-    </div>
 
-    <div class="post-tags-summary-under-footer"><footer>
-            <div class="post-tags-summary-under-footer-display" ><a class="post-tag-summary" href="/tags/content/" style="">content</a><a class="post-tag-summary" href="/tags/markdown/" style="">Markdown</a></div>
-        </footer></div>
-</article>
 
-</article><script>
-        var remark_config = {
-            host: 'https:\/\/comments.upagge.ru',
-            site_id: 'documentation',
-            components: ['counter']
-        };
 
-        (function(c) {
-            for(var i = 0; i < c.length; i++){
-                var d = document, s = d.createElement('script');
-                s.src = remark_config.host + '/web/' +c[i] +'.js';
-                s.defer = true;
-                (d.head || d.body).appendChild(s);
-            }
-        })(remark_config.components || ['embed']);
-    </script></div>
-                </main><footer class="footer">
-        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.82.0">Hugo</a> | Theme - <a href="https://ublogger.netlify.app/?utm_source=https://ublogger.netlify.app/&utm_medium=footer&utm_campaign=config&utm_term=2.0.1" target="_blank" title="uBlogger 2.0.1">uBlogger</a>
-                </div><div class="footer-line"><i class="svg-icon icon-copyright"></i><span>2019 - 2021</span><span class="author">&nbsp;<a href="https://uPagge.ru" target="_blank">uPagge</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
-        </div>
-    </footer></div>
 
-        <aside id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
-                <i class="svg-icon icon-arrow-up"></i>
-            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
-                <i class="svg-icon icon-comments-fixed"></i>
-            </a>
-        </aside><script src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.min.js"></script><script src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.37.1/dist/autocomplete.min.js"></script><script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.2.0/dist/algoliasearch-lite.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script><script src="https://cdn.jsdelivr.net/npm/sharer.js@0.4.0/sharer.min.js"></script><script>window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.en","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"}};</script><script src="/js/theme.min.js"></script><script>
-        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-            m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-        ym("70532758", "init", {
-            clickmap:true,
-            trackLinks:true,
-            accurateTrackBounce:true,
-            webvisor: null 
-        });
-    </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/70532758" style="position:absolute; left:-9999px;" alt="" /></div></noscript></body>
+
+
+
+<a  class='px-4 py-2 mx-2 rounded-sm text-center border border-accent hover:border-accent-dark transition duration-300 ease-in-out no-underline hover:bg-accent-dark hover:text-secondary dark:hover:text-primary dark:text-primary bg-accent text-secondary' href='/about'>
+  Know more
+</a>
+
+			
+			
+			
+
+			
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a  class='px-4 py-2 mx-2 rounded-sm text-center border border-accent hover:border-accent-dark transition duration-300 ease-in-out no-underline hover:bg-accent-dark hover:text-secondary dark:hover:text-primary dark:text-primary' href='/#contact'>
+  Contact me
+</a>
+
+			
+		</div>
+	</div>
+
+	
+	<div
+		class="my-6 p-4 mx-auto max-w-3/4 sm:max-w-2/3 lg:max-w-1/2 lg:relative xl:-right-10 xl:-right-16 shadow-soft relative bg-secondary-light">
+		<img src="/img/portrait.jpg" alt="hero image" class="max-h-vh-3/4">
+	</div>
+	
+
+</section>
+
+<hr class="my-24 border-secondary-dark dark:border-secondary-light">
+
+
+
+
+
+
+
+<section id="bars" class="mx-auto flex flex-wrap items-center">
+	<div class="text-center w-full">
+		<h1 class="my-0 text-4xl sm:text-5xl md:text-6xl">
+			Skills
+		</h1>
+		
+		<h2 class="font-light mt-0">I am really good at the following technical skills</h2>
+		
+	</div>
+	<div class="w-full flex flex-col">
+		
+		<div class="mt-8">
+			
+			<img class="mx-auto h-32" src="/icons/precision.svg" alt="Precision icon">
+			
+			<h2 class="inline-block">Precision</h2>
+			<div class="flex items-center">
+				<div class="h-4 flex-1 mr-4 shadow-2 rounded-sm bg-gray-200">
+					<div class="h-full bg-green-300 rounded-sm bg-gradient-to-r from-accent-light via-accent-dark to-accent"
+						style="width: 95%;">
+					</div>
+				</div>
+				<span class="font-bold">95%</span>
+			</div>
+		</div>
+		
+		<div class="mt-8">
+			
+			<img class="mx-auto h-32" src="/icons/heat.svg" alt="Heat Control icon">
+			
+			<h2 class="inline-block">Heat Control</h2>
+			<div class="flex items-center">
+				<div class="h-4 flex-1 mr-4 shadow-2 rounded-sm bg-gray-200">
+					<div class="h-full bg-green-300 rounded-sm bg-gradient-to-r from-accent-light via-accent-dark to-accent"
+						style="width: 90%;">
+					</div>
+				</div>
+				<span class="font-bold">90%</span>
+			</div>
+		</div>
+		
+		<div class="mt-8">
+			
+			<img class="mx-auto h-32" src="/icons/chicken.svg" alt="Quality of Food icon">
+			
+			<h2 class="inline-block">Quality of Food</h2>
+			<div class="flex items-center">
+				<div class="h-4 flex-1 mr-4 shadow-2 rounded-sm bg-gray-200">
+					<div class="h-full bg-green-300 rounded-sm bg-gradient-to-r from-accent-light via-accent-dark to-accent"
+						style="width: 87%;">
+					</div>
+				</div>
+				<span class="font-bold">87%</span>
+			</div>
+		</div>
+		
+		<div class="mt-8">
+			
+			<img class="mx-auto h-32" src="/icons/presentation.svg" alt="Presentation icon">
+			
+			<h2 class="inline-block">Presentation</h2>
+			<div class="flex items-center">
+				<div class="h-4 flex-1 mr-4 shadow-2 rounded-sm bg-gray-200">
+					<div class="h-full bg-green-300 rounded-sm bg-gradient-to-r from-accent-light via-accent-dark to-accent"
+						style="width: 75%;">
+					</div>
+				</div>
+				<span class="font-bold">75%</span>
+			</div>
+		</div>
+		
+	</div>
+</section>
+
+<hr class="my-24 border-secondary-dark dark:border-secondary-light">
+
+
+
+
+
+
+
+
+
+<section id="timeline">
+	<div class="text-center w-full mb-8">
+		<h1 class="my-0 text-4xl sm:text-5xl md:text-6xl">
+			Experience
+		</h1>
+		
+		<h2 class="font-light mt-0">What lead me to acquire experience.</h2>
+		
+	</div>
+
+	<div class="relative">
+		
+		<div class="h-full border-l border-primary-dark absolute left-0 md:absolute-center"></div>
+		<div>
+			
+			
+
+			
+			
+
+			
+			
+			
+			
+
+
+			<div class="md:w-1/2 mb-6 md:ml-auto pl-4">
+
+				
+				<div class="mb-4 font-light text-primary text-xl">Present</div>
+				
+				<div
+					class="p-4 border-2 border-primary-light dark:border-secondary-light rounded-md transition ease-in-out duration-300 shadow-2 hover:shadow-8 ">
+					<h2 class="inline-block my-0 text-primary">Chief cook</h2>
+
+					
+					<span class="mx-2">&middot; Bikini Bottom</span>
+					
+
+					<h3 class="mt-1 mb-0 text-primary-dark">Krusty krab</h3>
+
+					
+					<div class="mb-2 text-primary">
+						<p>Chief cook of the biggest restaurant of Bikini Bottom.</p>
+					</div>
+					
+				</div>
+				<div class="mt-4 font-light text-primary text-xl">Jan 2017</div>
+			</div>
+
+			
+			
+
+			
+			
+
+			
+
+
+			<div class="md:w-1/2 mb-6 md:mr-auto pl-4 md:pl-0 md:pr-4">
+
+				
+				<div class="mb-4 md:text-right font-light text-primary text-xl">Dec 2016
+				</div>
+				
+				<div
+					class="p-4 border-2 border-primary-light dark:border-secondary-light rounded-md transition ease-in-out duration-300 shadow-2 hover:shadow-8 ">
+					<h2 class="inline-block my-0 text-primary">Trainee cook</h2>
+
+					
+					<span class="mx-2">&middot; California</span>
+					
+
+					<h3 class="mt-1 mb-0 text-primary-dark">Krusty krab</h3>
+
+					
+					<div class="mb-2 text-primary">
+						<p>I learned the basics of cooking, the passion and the secrets of a good burger.</p>
+					</div>
+					
+				</div>
+				<div class="mt-4 md:text-right font-light text-primary text-xl">Jan 2016</div>
+			</div>
+
+			
+		</div>
+	</div>
+</section>
+
+<hr class="my-24 border-secondary-dark dark:border-secondary-light">
+
+
+
+
+
+
+
+<section id="pages">
+	<div class="text-center w-full">
+		<h1 class="my-0 text-4xl sm:text-5xl md:text-6xl">
+			Recent Posts
+		</h1>
+		
+		<h2 class="font-light mt-0">Read about my latest projects</h2>
+		
+	</div>
+
+	
+	
+
+
+	<div class="mt-8 flex flex-wrap justify-around">
+
+		
+		
+		
+
+		
+		
+		
+		
+		
+
+
+		
+		<div class="w-full md:w-1/2 lg:w-1/3 md:pl-4 lg:pl-6">
+			<div class="mb-4 border border-primary-light dark:border-secondary-light rounded-md overflow-hidden">
+	<a href="https://alkkuma1.github.io/blog/krabby_patty/" class="no-underline block">
+		
+			<span class="block">
+				
+				<div class="h-48 overflow-hidden bg-cover bg-center" style="background-image: url('https://alkkuma1.github.io/img/krabby_patty.webp');">
+				</div>
+				
+				<div class="px-4 mt-3 mb-3">
+					<h2 class="m-0 inline-block overflow-ellipsis">Krabby Patty recipe</h2>
+					<span class="block no-underline font-thin text-primary dark:text-primary-light -mt-2">
+						25/06/2020 &middot; 1 min read
+					</span>
+				</div>
+				<div class="px-4 mb-3 text-primary-dark overflow-ellipsis">
+					
+					How the best burger of all time is made.
+					
+					<span class="text-xs mt-3 block no-underline">Read more...</span>
+				</div>
+			</span>
+		</a>
+</div>
+		</div>
+		
+	</div>
+</section>
+
+<hr class="my-24 border-secondary-dark dark:border-secondary-light">
+
+
+
+
+
+
+
+<section id="contact">
+	<h1 class="text-center mx-auto max-w-4xl text-4xl sm:text-5xl md:text-6xl">
+		Contact me
+	</h1>
+	<div class="text-center mx-auto mb-8">
+		<p>Need help to open a fast-food ?
+Let’s talk about it !</p>
+
+	</div>
+
+	<form class="w-full relative" method='POST' action=""
+		 data-netlify="true" >
+		
+
+		
+		
+		
+		
+
+		
+		
+		
+		
+		
+		
+
+
+		<div>
+			
+			<div class="my-2 font-bold text-lg">
+				<label class="" for="name">Your name
+					
+				</label>
+			</div>
+			
+			
+			
+			
+			<input type="text" name="name"
+				id="name" placeholder="Name"
+				pattern="[a-zA-Z]+" 
+				class='bg-secondary-light border-secondary focus:border-accent'>
+			
+		</div>
+		
+
+		
+		
+
+		
+		
+		
+		
+
+
+		<div>
+			
+			<div class="my-2 font-bold text-lg">
+				<label class="" for="email">Your email
+					
+					<span class="text-red-500 font-normal">*</span>
+					
+				</label>
+			</div>
+			
+			
+			
+			
+			<input type="email" name="email"
+				id="email" placeholder="Email"
+				ZgotmplZ  required 
+				class='bg-secondary-light border-secondary focus:border-accent'>
+			
+		</div>
+		
+
+		
+		
+
+		
+		
+		
+		
+
+
+		<div>
+			
+			<div class="my-2 font-bold text-lg">
+				<label class="" for="message">Your message (minimum 10 characters)
+					
+					<span class="text-red-500 font-normal">*</span>
+					
+				</label>
+			</div>
+			
+			
+			
+			<textarea rows="5" name="message" id="message"
+				placeholder="Your message..." ZgotmplZ ZgotmplZ
+				 required  class='bg-secondary-light border-secondary focus:border-accent'></textarea>
+			
+		</div>
+		
+
+		
+		
+		<a class="bg-secondary-dark dark:bg-secondary-light px-3 py-2 rounded-md mr-2 no-underline inline-block" href="mailto:mail@example.com">
+			Contact via email
+		</a>
+		
+		
+
+		<div class="float-right">
+			<input type="reset" class="bg-secondary-dark dark:bg-secondary-light mr-2" value='Cancel' />
+			<input type="submit" class="bg-primary text-secondary" value='Submit' />
+		</div>
+	</form>
+</section>
+
+<hr class="my-24 border-secondary-dark dark:border-secondary-light">
+
+
+
+
+<div class="flex justify-center items-center flex-wrap">
+	
+	<a href="mailto:mail@example.com" title="email"
+		class="bg-black rounded-full p-3 mx-2 my-2 transform hover:scale-110 active:scale-90 transition-transform duration-300 ease-in-out"
+		 >
+		<img src="/icons/email.svg" alt="email icon" class="w-4 h-4 md:w-6 md:h-6 blend-diff">
+	</a>
+	
+	<a href="https://github.com/" title="github"
+		class="bg-black rounded-full p-3 mx-2 my-2 transform hover:scale-110 active:scale-90 transition-transform duration-300 ease-in-out"
+		 target="_blank"   rel="noopener" >
+		<img src="/icons/github.svg" alt="github icon" class="w-4 h-4 md:w-6 md:h-6 blend-diff">
+	</a>
+	
+	<a href="https://medium.com/" title="medium"
+		class="bg-black rounded-full p-3 mx-2 my-2 transform hover:scale-110 active:scale-90 transition-transform duration-300 ease-in-out"
+		 target="_blank"   rel="noopener" >
+		<img src="/icons/medium.svg" alt="medium icon" class="w-4 h-4 md:w-6 md:h-6 blend-diff">
+	</a>
+	
+	<a href="https://stackoverflow.com/" title="stack-overflow"
+		class="bg-black rounded-full p-3 mx-2 my-2 transform hover:scale-110 active:scale-90 transition-transform duration-300 ease-in-out"
+		 target="_blank"   rel="noopener" >
+		<img src="/icons/stack-overflow.svg" alt="stack-overflow icon" class="w-4 h-4 md:w-6 md:h-6 blend-diff">
+	</a>
+	
+	<a href="https://twitter.com/" title="twitter"
+		class="bg-black rounded-full p-3 mx-2 my-2 transform hover:scale-110 active:scale-90 transition-transform duration-300 ease-in-out"
+		 target="_blank"   rel="noopener" >
+		<img src="/icons/twitter.svg" alt="twitter icon" class="w-4 h-4 md:w-6 md:h-6 blend-diff">
+	</a>
+	
+	<a href="https://facebook.com/" title="facebook"
+		class="bg-black rounded-full p-3 mx-2 my-2 transform hover:scale-110 active:scale-90 transition-transform duration-300 ease-in-out"
+		 target="_blank"   rel="noopener" >
+		<img src="/icons/facebook.svg" alt="facebook icon" class="w-4 h-4 md:w-6 md:h-6 blend-diff">
+	</a>
+	
+</div>
+<div class="mt-12"></div>
+
+
+
+
+	</main>
+
+	<div class="absolute bottom-0 w-full"><footer class="w-full h-24 text-center text-xs text-gray-400 bg-black relative">
+	<div class="w-full px-6 md:pt-0 md:mx-auto md:max-w-5xl flex flex-1 space-between items-center absolute-center">
+		<a href="https://alkkuma1.github.io/" class="absolute">
+			<div class="w-8 h-8 relative font-bold bg-white blend-diff">
+	<h1 class="absolute-center m-0 font-charter text-2xl text-gray-100 blend-diff select-none">
+		P
+	</h1>
+</div>
+		</a>
+
+		<div class="h-full flex-1">
+			<span class="select-none">
+				<a href="https://github.com/negrel/hugo-theme-pico" class="text-gray-400 hover:text-gray-200 no-underline">Pico</a>
+				theme for
+				<a href="https://gohugo.io/" class="text-gray-400 hover:text-gray-200 no-underline">Hugo</a>
+			</span>
+		</div>
+	</div>
+</footer>
+
+	</div>
+</body>
+
 </html>

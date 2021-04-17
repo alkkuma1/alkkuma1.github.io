@@ -1,51 +1,32 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>uBlogger</title>
-        <link>https://ublogger.netlify.app/</link>
-        <description>About uBlogger Theme</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 06 Mar 2020 21:29:01 &#43;0800</lastBuildDate>
-            <atom:link href="https://ublogger.netlify.app/index.xml" rel="self" type="application/rss+xml" />
-        <item>
-    <title>Theme Documentation - Built-in Shortcodes</title>
-    <link>https://ublogger.netlify.app/theme-documentation-built-in-shortcodes/</link>
-    <pubDate>Wed, 04 Mar 2020 16:29:41 &#43;0800</pubDate>
-    <author>upagge.en</author>
-    <guid>https://ublogger.netlify.app/theme-documentation-built-in-shortcodes/</guid>
-    <description><![CDATA[<p><strong>Hugo</strong> provides multiple built-in shortcodes for author convenience and to keep your markdown content clean.</p>]]></description>
-</item><item>
-    <title>Theme Documentation - Extended Shortcodes</title>
-    <link>https://ublogger.netlify.app/theme-documentation-extended-shortcodes/</link>
-    <pubDate>Tue, 03 Mar 2020 16:29:41 &#43;0800</pubDate>
-    <author>upagge.en</author>
-    <guid>https://ublogger.netlify.app/theme-documentation-extended-shortcodes/</guid>
-    <description><![CDATA[<p><strong>uBlogger</strong> theme provides multiple shortcodes on top of built-in ones in Hugo.</p>]]></description>
-</item><item>
-    <title>Basic Markdown Syntax</title>
-    <link>https://ublogger.netlify.app/basic-markdown-syntax/</link>
-    <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate>
-    <author>upagge.en</author>
-    <guid>https://ublogger.netlify.app/basic-markdown-syntax/</guid>
-    <description><![CDATA[<p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files.</p>]]></description>
-</item><item>
-    <title>Emoji Support</title>
-    <link>https://ublogger.netlify.app/emoji-support/</link>
-    <pubDate>Tue, 01 Oct 2019 17:55:28 &#43;0800</pubDate>
-    <author>upagge.en</author>
-    <guid>https://ublogger.netlify.app/emoji-support/</guid>
-    <description><![CDATA[<p>Emoji can be enabled in a Hugo project in a number of ways.</p>]]></description>
-</item><item>
-    <title>Theme Documentation - Basics</title>
-    <link>https://ublogger.netlify.app/theme-documentation-basics/</link>
-    <pubDate>Fri, 06 Mar 2020 21:29:01 &#43;0800</pubDate>
-    <author>upagge.en</author>
-    <guid>https://ublogger.netlify.app/theme-documentation-basics/</guid>
-    <description><![CDATA[<p>Discover what the Hugo - <strong>uBlog</strong> theme is all about and the core-concepts behind it.</p>]]></description>
-</item><item>
-    <title>Theme Documentation - Content</title>
-    <link>https://ublogger.netlify.app/theme-documentation-content/</link>
-    <pubDate>Thu, 05 Mar 2020 15:58:26 &#43;0800</pubDate>
-    <author>upagge.en</author>
-    <guid>https://ublogger.netlify.app/theme-documentation-content/</guid>
-    <description><![CDATA[<p>Find out how to create and organize your content quickly and intuitively in <strong>uBlogger</strong> theme.</p>]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pico</title>
+    <link>https://alkkuma1.github.io/</link>
+    <description>Recent content on Pico</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 25 Jun 2020 00:00:00 +0530</lastBuildDate><atom:link href="https://alkkuma1.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Krabby Patty recipe</title>
+      <link>https://alkkuma1.github.io/blog/krabby_patty/</link>
+      <pubDate>Thu, 25 Jun 2020 00:00:00 +0530</pubDate>
+      
+      <guid>https://alkkuma1.github.io/blog/krabby_patty/</guid>
+      <description>Ingredients: For 4 people :
+ Lots of love 2 cans of crab meat 1 lightly beaten egg 1/2 lemon juice Breadcrumbs 1 tomato Hamburger bread Pickles 1 onion 4 salad leaves Frying oil Salt pepper  For the sauce:
+ Worcestershire sauce Ketchup Mustard  Steps :   In a bowl, beat 1 egg then add the crabmeat, breadcrumbs, lemon juice, salt and pepper. Mix until you get a homogeneous consistency.</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://alkkuma1.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://alkkuma1.github.io/about/</guid>
+      <description>I&amp;rsquo;m a sea sponge who works as a fry cook at the Krusty Krab: The Krusty Krabe is a fast food restaurant known for it&amp;rsquo;s signature burger:
+The Krabby PattyTry to make one yourself and you will be as happy as I am. My first Krabby PattyYou can take a look at the recipe here.</description>
+    </item>
+    
+  </channel>
 </rss>
