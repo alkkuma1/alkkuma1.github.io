@@ -27,10 +27,8 @@ jobs:
     - name: Build                                
       run: hugo
 
-    - name: Deploy                               
-      uses: peaceiris/actions-gh-pages@v3
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@4.1.0
       with:
-        deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-        external_repository: nitinkumartech/nitinkumartech.github.io
-        publish_branch: master
-        keep_files: true
+        branch: gh-pages # The branch the action should deploy to.
+        folder: public # The folder the action should deploy.
