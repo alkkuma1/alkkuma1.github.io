@@ -10,7 +10,7 @@ title = "Skills"
 subtitle = "I am really good at the following technical skills"
 
 [[bar]]
-	icon = "/icons/precision.svg"
+	icon = "/img/EDI.png"
 	name = "Precision"
 	percent = "95%"
 
