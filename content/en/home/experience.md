@@ -19,7 +19,7 @@ date_format = "Jan 2006" # Date format https://gohugo.io/functions/dateformat/#r
   date_start = "2019-03-29"
   date_end = ""
   description = "I am working on integration and trying to get onboarded with cloud in terms on integrations."
-  description = "Tools and Technologies worked on: EAI: SSP, SFG, SBI, Cloud: AWS, Azure"
+  description2 = "Tools and Technologies worked on: EAI: SSP, SFG, SBI, Cloud: AWS, Azure"
 
 [[period]]
   title = "Senior System Engineer"
