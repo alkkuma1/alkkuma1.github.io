@@ -26,5 +26,5 @@ date_format = "Jan 2006" # Date format https://gohugo.io/functions/dateformat/#r
   location = "IBM India Pvt Ltd, Pune, India"
   date_start = "2014-08-18"
   date_end = "2019-03-28"
-  description = "I learnt a lot of things in my IBM Tenure. Mainly, I was working on EDI, map translations etc. <www.linkedin.com/in/alkakumari1>"
+  description = "I learnt a lot of things in my IBM Tenure. Mainly, I was working on EDI, map translations etc. www.linkedin.com/in/alkakumari1"
 +++
