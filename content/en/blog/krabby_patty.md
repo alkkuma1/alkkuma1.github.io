@@ -16,7 +16,7 @@ banner = 'img/portrait_me.PNG'
 * [Chapter 2](#Chapter2)
 
 ## Ingredients:
-<div id="Chapter1"></div>
+<div id="Chapter1"> </div>
 For 4 people :
 - Lots of love
 - 2 cans of crab meat
@@ -37,6 +37,7 @@ For the sauce:
 - Mustard
 
 ## Steps :
+<div id="Chapter2"> </div>
 - In a bowl, beat 1 egg then add the crabmeat, breadcrumbs, lemon juice, salt and pepper. Mix until you get a homogeneous consistency.
 
 - Then form crab pâté steaks and brown them in a pan with a drizzle of frying oil for 4 to 5 minutes on each side.
