@@ -8,16 +8,15 @@ date = 2021-04-18
 description = "whoami"
 
 # Comment next line and the default banner wil be used.
-banner = 'img/portrait1.PNG'
+banner = 'img/portrait_me.PNG'
 
 +++
 
-<a name="tasks">
-   my tasks
-</a>
+* [Chapter 1](#Chapter1)
+* [Chapter 2](#Chapter2)
 
 ## Ingredients:
-
+<div id="Chapter1"></div>
 For 4 people :
 - Lots of love
 - 2 cans of crab meat
@@ -38,7 +37,6 @@ For the sauce:
 - Mustard
 
 ## Steps :
-[tasks](#tasks)
 - In a bowl, beat 1 egg then add the crabmeat, breadcrumbs, lemon juice, salt and pepper. Mix until you get a homogeneous consistency.
 
 - Then form crab pâté steaks and brown them in a pan with a drizzle of frying oil for 4 to 5 minutes on each side.
