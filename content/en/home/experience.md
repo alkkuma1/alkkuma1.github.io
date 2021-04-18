@@ -18,14 +18,21 @@ date_format = "Jan 2006" # Date format https://gohugo.io/functions/dateformat/#r
   location = "Accenture, Bengaluru, India"
   date_start = "2019-03-29"
   date_end = ""
-  description = "I am working on integration and trying to get onboarded with cloud in terms on integrations."
-  description2 = "Tools and Technologies worked on: EAI: SSP, SFG, SBI, Cloud: AWS, Azure"
+  description = "I am working on application integration and trying to get onboarded with cloud in terms on integrations. Tools and Technologies worked on: EAI: SSP, SFG, SBI, Cloud: AWS, Azure"
+
+  [[period]]
+  title = "Attained AWS Cloud certification"
+  subtitle = "AWS Cloud Developer - Associate"
+  location = "Bengaluru, India"
+  date_start = "2014-08-18"
+  date_end = "2019-03-28"
+  description = "I learnt a lot of things in my IBM Tenure. Mainly, I was working on EDI, map translations etc."
 
 [[period]]
   title = "Senior System Engineer"
   subtitle = "Previous Designations: System Engineer, Associate System Engineer"
   location = "IBM India Pvt Ltd, Pune, India"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = "I learned the basics of cooking, the passion and the secrets of a good burger"
+  date_start = "2020-08-01"
+  date_end = "2020-08-01"
+  description = "I learnt a lot of things in my IBM Tenure. Mainly, I was working on EDI, map translations etc."
 +++
