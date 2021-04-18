@@ -1,16 +1,20 @@
 +++
-title = "Krabby Patty recipe"
-subtitle = "How the best burger of all time is made."
-tags = ['recipe']
-date = 2020-06-25
+title = "whoami"
+subtitle = "Know me more"
+tags = ['featured1']
+date = 2021-04-18
 
 # For description meta tag
-description = "Recipe of the legendary Krabby Patty."
+description = "whoami"
 
 # Comment next line and the default banner wil be used.
-banner = 'img/krabby_patty.webp'
+banner = 'img/portrait1.PNG'
 
 +++
+
+<a name="tasks">
+   my tasks
+</a>
 
 ## Ingredients:
 
@@ -34,7 +38,7 @@ For the sauce:
 - Mustard
 
 ## Steps :
-
+[tasks](#tasks)
 - In a bowl, beat 1 egg then add the crabmeat, breadcrumbs, lemon juice, salt and pepper. Mix until you get a homogeneous consistency.
 
 - Then form crab pâté steaks and brown them in a pan with a drizzle of frying oil for 4 to 5 minutes on each side.
