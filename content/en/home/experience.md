@@ -24,8 +24,8 @@ date_format = "Jan 2006" # Date format https://gohugo.io/functions/dateformat/#r
   title = "Attained AWS Cloud certification"
   subtitle = "AWS Cloud Developer - Associate"
   location = "Bengaluru, India"
-  date_start = "2020-01-08"
-  date_end = "2020-02-08"
+  date_start = "2020-08-01"
+  date_end = "2020-08-02"
   description = "It is just a start in my journey to cloud. Certification authenticity can be checked on www.linkedin.com/in/alkakumari1."
 
 [[period]]
