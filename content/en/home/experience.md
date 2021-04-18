@@ -26,7 +26,7 @@ date_format = "Jan 2006" # Date format https://gohugo.io/functions/dateformat/#r
   location = "Bengaluru, India"
   date_start = "2014-08-18"
   date_end = "2019-03-28"
-  description = "I learnt a lot of things in my IBM Tenure. Mainly, I was working on EDI, map translations etc."
+  description = "It is just a start in my journey to cloud. Certification authenticity can be checked on my LinkedIn."
 
 [[period]]
   title = "Senior System Engineer"
