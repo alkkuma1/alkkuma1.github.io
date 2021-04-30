@@ -8,47 +8,13 @@ date = 2021-04-18
 description = "whoami"
 
 # Comment next line and the default banner wil be used.
-banner = 'img/portrait_me.PNG'
+banner = 'img/portrait_me   .PNG'
 
 +++
 
-* [Chapter 1](#Chapter1)
-* [Chapter 2](#Chapter2)
+Hey,
 
-## Ingredients:
-<div id="Chapter1"> </div>
-For 4 people :
-- Lots of love
-- 2 cans of crab meat
-- 1 lightly beaten egg
-- 1/2 lemon juice
-- Breadcrumbs
-- 1 tomato
-- Hamburger bread
-- Pickles
-- 1 onion
-- 4 salad leaves
-- Frying oil
-- Salt pepper
-
-For the sauce:
-- Worcestershire sauce
-- Ketchup
-- Mustard
-
-## Steps :
-<div id="Chapter2"> </div>
-- In a bowl, beat 1 egg then add the crabmeat, breadcrumbs, lemon juice, salt and pepper. Mix until you get a homogeneous consistency.
-
-- Then form crab pâté steaks and brown them in a pan with a drizzle of frying oil for 4 to 5 minutes on each side.
-
-- Meanwhile, make the sauce. Combine Worcestershire sauce with mustard and ketchup. Taste then change the seasoning if necessary.
-
-- Reserve the crab pâté steaks on a paper towel and then brown the burger buns for a few minutes.
-
-- Cut the tomato into slices, mince the onion and cut the pickles into pieces.
-
-- Place the crab pâté steaks on each burger bun, then add a salad leaf, a few tomato slices, onions and pickles.
-
-- Add the sauce and cover with burger bread before tasting these delicious Krabby Krab!
-
+This is Alka and I work as a Team Lead in Accenture India. My journey is quite straightforward. I did my Bachelors in Technology from Saroj Mohan Institute of Technology, West Bengal. My college was in a small town. So, along with my studies I got to know the importance of stoic lifestyle. 
+I was then campus selected in IBM where I worked my next 4 years. This is where I learnt the basics of corporate world, EDI, EAI, project management in general.   There was a time when I started feeling stagnant and wanted growth in terms of money and technology.
+Accenture came up with an offer I could not refuse and since then I have been working for Accenture and have got a wide experience in different tools and technologies since then.
+Recently, I got a certification “AWS cloud Developer – Associate” because I was interested in the same and I would like to continue with my career in the same field.
